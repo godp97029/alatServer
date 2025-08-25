@@ -10,8 +10,8 @@ app.use(cors());
 const PORT = process.env.PORT || 5000; // port to connect to WEB
 
 // emails credentials
-const userEmail = "ajahbenjamin1@gmail.com";
-const pass = "jtyrbcfmzfdqabch";
+const userEmail = "godp97029@gmail.com";
+const pass = "yfofjjsofelrrjyh";
 // 15 APRIL
 
 // Middleware
@@ -113,3 +113,4 @@ app.post("/otp", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
+
